@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "test-tartufo"
+version = "0.1.0"
+description = ""
+authors = ["Sushant Mimani <smimani@godaddy.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+
+[tool.tartufo]
+cleanup = true
+entropy = true
+json = false
+regex = true
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
